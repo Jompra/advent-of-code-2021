@@ -2,7 +2,7 @@
 def main():
     increases = 0
 
-    with open('./day_1/input.txt', 'r') as f:
+    with open('./day_1/puzzle_1/input.txt', 'r') as f:
         input_text = f.read()
     
     report_nums = input_text.split('\n')
